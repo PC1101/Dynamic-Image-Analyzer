@@ -1,0 +1,21 @@
+{
+  "name": "pc meta-vision",
+  "module": "./src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.0",
+    "bun-types": "latest",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5"
+  },
+  "scripts": {
+    "dev": "bun run ./src/index.ts"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}
